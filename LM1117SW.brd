@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24,8 +24,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -1152,8 +1152,8 @@ Metric Code Size 2012</description>
 <library name="Fabian">
 <packages>
 <package name="TYS3010100M-10">
-<smd name="P$1" x="-1.15" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
-<smd name="P$2" x="1.15" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.15" y="0" dx="2.7" dy="1" layer="1" roundness="50" rot="R90"/>
+<smd name="P$2" x="1.15" y="0" dx="2.7" dy="1" layer="1" roundness="50" rot="R90"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="39"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="39"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="39"/>
@@ -1407,13 +1407,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="TYS3010100M-10" x="12.05" y="2.76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="61k9" x="11.51" y="5.45" smashed="yes">
-<attribute name="VALUE" x="10.875" y="3.545" size="1.27" layer="27"/>
+<attribute name="VALUE" x="14.275" y="5.045" size="1.27" layer="27"/>
 <attribute name="OC_FARNELL" value="1803730" x="11.51" y="5.45" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MULTICOMP" x="11.51" y="5.45" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MC00625W0402161K9" x="11.51" y="5.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R0402" value="20k" x="11.52" y="6.69" smashed="yes" rot="R180">
-<attribute name="VALUE" x="12.155" y="8.595" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="14.295" y="6.755" size="1.27" layer="27"/>
 <attribute name="OC_FARNELL" value="1469693" x="11.52" y="6.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="VISHAY DRALORIC" x="11.52" y="6.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CRCW040220K0FKED" x="11.52" y="6.69" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1554,33 +1554,33 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="19,1,f8cc2832fc5c84eb"/>
 <approved hash="4,1,34dbdfe866317749"/>
 <approved hash="4,1,2be8dd9667ab6114"/>
-<approved hash="4,1,a0a3bf163f1020a5"/>
+<approved hash="4,1,33972307c7293b57"/>
+<approved hash="4,1,6a97d4a406534b55"/>
+<approved hash="19,1,798f6e743ea205aa"/>
+<approved hash="4,1,b4e45d9065b3740b"/>
+<approved hash="19,16,9704b0b0aa1d28e4"/>
+<approved hash="19,16,3fdc27e82019382d"/>
+<approved hash="19,16,001c182825853db1"/>
 <approved hash="4,1,9b64a84b284d1b62"/>
+<approved hash="4,1,a0a3bf163f1020a5"/>
 <approved hash="4,1,6254c4914f0ac0f9"/>
 <approved hash="4,1,0fde25c2a5c48fd8"/>
-<approved hash="4,1,a8501d5c62ac30f2"/>
 <approved hash="4,1,48d88d5da6f3bee1"/>
+<approved hash="4,1,a8501d5c62ac30f2"/>
 <approved hash="4,1,53badda4f5d9bfa8"/>
 <approved hash="4,1,d5e4743a4c37c7ef"/>
 <approved hash="19,1,eb2e02809867ba80"/>
 <approved hash="19,1,7845a0255b9667f5"/>
 <approved hash="19,1,e368d32520493bac"/>
 <approved hash="19,1,3685f9cf722fa97f"/>
-<approved hash="4,1,33972307c7293b57"/>
-<approved hash="4,1,6a97d4a406534b55"/>
-<approved hash="19,1,798f6e743ea205aa"/>
-<approved hash="4,1,b4e45d9065b3740b"/>
 <approved hash="5,1,9fedb6e975edf7bd"/>
 <approved hash="5,1,f10468b8cc84a1ea"/>
 <approved hash="4,1,ccbff69076924cbd"/>
-<approved hash="4,16,a0a3bf163f1020a5"/>
-<approved hash="4,16,9b64a84b284d1b62"/>
 <approved hash="4,16,0fde25c2a5c48fd8"/>
 <approved hash="4,16,6254c4914f0ac0f9"/>
+<approved hash="4,16,a0a3bf163f1020a5"/>
+<approved hash="4,16,9b64a84b284d1b62"/>
 <approved hash="4,16,d5e4743a4c37c7ef"/>
-<approved hash="19,16,9704b0b0aa1d28e4"/>
-<approved hash="19,16,3fdc27e82019382d"/>
-<approved hash="19,16,001c182825853db1"/>
 <approved hash="4,16,ccbff69076924cbd"/>
 </errors>
 </board>

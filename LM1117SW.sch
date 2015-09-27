@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -64,8 +64,8 @@
 <library name="Fabian">
 <packages>
 <package name="TYS3010100M-10">
-<smd name="P$1" x="-1.15" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
-<smd name="P$2" x="1.15" y="0" dx="2.7" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.15" y="0" dx="2.7" dy="1" layer="1" roundness="50" rot="R90"/>
+<smd name="P$2" x="1.15" y="0" dx="2.7" dy="1" layer="1" roundness="50" rot="R90"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="39"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="39"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="39"/>
