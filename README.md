@@ -1,6 +1,6 @@
 # LM1117switcher
-sot23 step down voltage regulator to replace LM1117
+SOT-223 step down voltage regulator to replace LM1117-3.3
 
-order at https://oshpark.com/shared_projects/o3DHlL3n
+Order the board at https://oshpark.com/shared_projects/o3DHlL3n
 
 ![](https://github.com/fabianhu/LM1117switcher/blob/master/lm1117switcher.jpg)
