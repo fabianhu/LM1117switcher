@@ -16,13 +16,13 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -68,6 +68,9 @@
 <wire x1="12.65" y1="7.55" x2="5.7" y2="7.55" width="0" layer="20"/>
 <wire x1="5.7" y1="7.55" x2="5.7" y2="0.5" width="0" layer="20"/>
 <text x="11.8" y="2.1" size="0.8128" layer="22" font="vector" rot="MR30">huslik.net</text>
+<text x="4.75" y="6.6" size="0.6096" layer="51" rot="R180">GND</text>
+<text x="4.8" y="4.3" size="0.6096" layer="51" rot="R180">OUT</text>
+<text x="4.85" y="1.95" size="0.6096" layer="51" rot="R180">IN</text>
 </plain>
 <libraries>
 <library name="rcl">
